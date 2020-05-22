@@ -1,6 +1,6 @@
 # my-react-portfolio
 
-This a website that show cases my most recent projects.
+This is my website that show cases my most recent projects.
 Includes social media accounts that I'm active on.
 Equiped with an up to date resume.
 
