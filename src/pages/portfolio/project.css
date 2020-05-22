@@ -13,4 +13,16 @@
   }
   .devIcon {
       font-size: 3em;
+      
   }
+
+  .description {
+height: 90px;
+width: 220px;
+overflow: scroll; 
+  }
+  .card-text {
+      margin-bottom: 15px;
+  }
+  
+  

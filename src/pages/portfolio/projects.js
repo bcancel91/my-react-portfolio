@@ -20,8 +20,8 @@ function Projects (){
       <div><i class="devicon-express-original colored devIcon"></i></div> 
       </div>
       <div className="col-6">
-      <div><i class="devicon-bootstrap-plain-wordmark colored devIcon"></i></div>
-      <div><i class="devicon-bootstrap-plain-wordmark colored devIcon"></i></div>
+      <div><i class="devicon-bootstrap-plain colored devIcon"></i></div>
+      <div><i class="devicon-nodejs-plain colored devIcon"></i></div>
       </div>
       </div>
   </Project>
@@ -29,29 +29,43 @@ function Projects (){
   <div className="col-4">
   <Project
   title="Password Generator"
-  info="blah blah blh and blah fgdfgwergqe"
-  appLink="https://bcancel91.github.io/weather-dashboard/"
-  repoLink="https://github.com/bcancel91/weather-dashboard.git">
-      <div><i class="devicon-javascript-plain colored" style={{fontSize: "3em"}}></i></div>
-      <div>icon2</div> 
-      <div>icon3</div>
+  info="An application that prompts the user with questions to delvelop a random password tailored to the user's needs."
+  appLink="https://bcancel91.github.io/passwordGen/"
+  repoLink="https://github.com/bcancel91/passwordGen.git">
+      <div className="row">
+          <div className="col-6">
+      
+      <div><i class="devicon-javascript-plain colored devIcon" ></i></div>
+      <div><i class="devicon-html5-plain colored devIcon"></i></div> 
+      </div>
+      <div className="col-6">
+      <div><i class="devicon-css3-plain colored devIcon"></i></div>
+      <div><i class="devicon-bootstrap-plain colored devIcon"></i></div>
+      </div>
+      </div>
   </Project>
   </div>
   <div className="col-4">
   <Project
   title="Weather DashBoard"
-  info="blah blah blh and blah fgdfgwergqe"
+  info="Web application that displays the weather outlook for multiple cities"
   appLink="https://bcancel91.github.io/weather-dashboard/"
   repoLink="https://github.com/bcancel91/weather-dashboard.git">
-      <div><i class="devicon-javascript-plain colored" style={{fontSize: "3em"}}></i></div>
-      <div>icon2</div> 
-      <div>icon3</div>
+      <div className="row">
+    <div className="col-6">
+      
+      <div><i class="devicon-javascript-plain colored devIcon" ></i></div>
+      <div><i class="devicon-jquery-plain colored devIcon"></i></div> 
+      </div>
+      <div className="col-6">
+      <div><i class="devicon-css3-plain colored devIcon"></i></div>
+      <div><i class="devicon-bootstrap-plain colored devIcon"></i></div>
+      </div>
+      </div>
   </Project>
   </div>
-  </div>
-
-  <div className="row">
-        <div className="col-4">
+  
+  <div className="col-4">
  <Project
   title="Google Books Search"
   info="blah blah blh and blah fgdfgwergqe"
