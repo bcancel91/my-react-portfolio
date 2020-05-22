@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.ac52997d.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.f5337955.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.f5337955.chunk.js.map",
+    "main.css": "/my-react-portfolio/static/css/main.a633a1a0.chunk.css",
+    "main.js": "/my-react-portfolio/static/js/main.3bfed3a4.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.3bfed3a4.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.f638b4f6.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.f638b4f6.js.map",
-    "static/js/2.b1438598.chunk.js": "/my-react-portfolio/static/js/2.b1438598.chunk.js",
-    "static/js/2.b1438598.chunk.js.map": "/my-react-portfolio/static/js/2.b1438598.chunk.js.map",
+    "static/js/2.29373aba.chunk.js": "/my-react-portfolio/static/js/2.29373aba.chunk.js",
+    "static/js/2.29373aba.chunk.js.map": "/my-react-portfolio/static/js/2.29373aba.chunk.js.map",
     "index.html": "/my-react-portfolio/index.html",
-    "precache-manifest.40fd4e50fb6bea772bdf823038696c87.js": "/my-react-portfolio/precache-manifest.40fd4e50fb6bea772bdf823038696c87.js",
+    "precache-manifest.e00c864e17641a2f6feb6b6e6ed56fb7.js": "/my-react-portfolio/precache-manifest.e00c864e17641a2f6feb6b6e6ed56fb7.js",
     "service-worker.js": "/my-react-portfolio/service-worker.js",
-    "static/css/main.ac52997d.chunk.css.map": "/my-react-portfolio/static/css/main.ac52997d.chunk.css.map",
-    "static/js/2.b1438598.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.b1438598.chunk.js.LICENSE.txt",
+    "static/css/main.a633a1a0.chunk.css.map": "/my-react-portfolio/static/css/main.a633a1a0.chunk.css.map",
+    "static/js/2.29373aba.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.29373aba.chunk.js.LICENSE.txt",
     "static/media/WebDevelopmentResume.pdf": "/my-react-portfolio/static/media/WebDevelopmentResume.f7492b1a.pdf",
     "static/media/brianPic.JPG": "/my-react-portfolio/static/media/brianPic.8a493d79.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.f638b4f6.js",
-    "static/js/2.b1438598.chunk.js",
-    "static/css/main.ac52997d.chunk.css",
-    "static/js/main.f5337955.chunk.js"
+    "static/js/2.29373aba.chunk.js",
+    "static/css/main.a633a1a0.chunk.css",
+    "static/js/main.3bfed3a4.chunk.js"
   ]
 }
