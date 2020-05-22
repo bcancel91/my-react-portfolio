@@ -1,0 +1,57 @@
+.foot1, .foot2, .foot3 {
+    color: #0060B6;
+    font-size: 3rem;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    line-height: 30vh;
+    text-shadow: 2.3px 6.2px black;
+}
+a {
+    color: #0060B6;
+   
+}
+a:hover {
+    color: greenyellow
+}
+
+.icons, .email {
+    color: black
+}
+
+
+.icons:hover {
+  color: greenyellow;
+  text-shadow: 2.3px 2.2px black;
+}
+.foot1:hover, .foot2:hover, .foot3:hover {
+   
+}
+.foot1:hover, .foot2:hover, .foot3:hover{
+    
+    text-shadow: 2.3px 20.2px black;
+
+}
+.changeText , .location{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+.changeText:hover{
+    
+  color: greenyellow;
+  font-size: 20px;
+  text-shadow: 2.3px 2.2px black
+}
+.location:hover {
+text-shadow: 1.3px 4.2px black;
+font-size: 20px;
+}
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}

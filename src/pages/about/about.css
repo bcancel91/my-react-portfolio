@@ -1,0 +1,61 @@
+.card-shadow {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 20px;
+    border-radius: 20px
+    
+  }
+  .abilities {
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+    color: lightgrey ;
+  
+  }
+  .abilities:hover {
+  border-color:#0060B6;
+  border-style: none;
+  color: greenyellow;
+  font-size: 20px;
+  text-shadow: 2.3px 2.2px black
+  }
+
+
+
+.item {
+   
+    display: flex;
+    float: right;
+    clear: right;
+    padding: 10px;
+    font-size: 20px;
+
+  }
+  
+  
+  i {
+    color: black;
+    margin-left: 20px;
+  }
+  
+  .arrow1 {
+    animation: slide1 1s ease-in-out infinite;
+    margin-right:16px;
+  }
+  
+  
+  @keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+  .resumeText {
+    font-family: 'Gloria Hallelujah', cursive;
+    
+    margin-top: 12px
+  }

@@ -1,0 +1,14 @@
+.changeText {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.changeText:hover{
+    
+  color: greenyellow;
+  
+  text-shadow: 2.3px 2.2px black
+}
+.proPic { 
+    border: solid black 15px;
+    background-color: black;
+  
+}

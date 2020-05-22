@@ -1,0 +1,16 @@
+.card-shadow {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 20px;
+    border-radius: 20px
+    
+  }
+  .card {
+    font-family: 'Gloria Hallelujah', cursive;
+
+  }
+  .hoverLinks:hover {
+    text-shadow: 2.3px 2.2px black
+  }
+  .devIcon {
+      font-size: 3em;
+  }
