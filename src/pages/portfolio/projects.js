@@ -6,9 +6,9 @@ import Project from "./project";
 function Projects (){
    
     return (
-<div className="conatiner-fluid">
+<div className="conatiner-fluid mt-4">
     <div className="row">
-        <div className="col-4">
+        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center mb-4">
  <Project
   title="tutorMe"
   info="An online tutoring service that is available to you from anywhere."
@@ -26,7 +26,7 @@ function Projects (){
       </div>
   </Project>
   </div>
-  <div className="col-4">
+  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center mb-4">
   <Project
   title="Password Generator"
   info="An application that prompts the user with questions to delvelop a random password tailored to the user's needs."
@@ -45,7 +45,7 @@ function Projects (){
       </div>
   </Project>
   </div>
-  <div className="col-4">
+  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center mb-4">
   <Project
   title="Weather DashBoard"
   info="Web application that displays the weather outlook for multiple cities"
@@ -65,7 +65,7 @@ function Projects (){
   </Project>
   </div>
   
-  <div className="col-4">
+  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center mb-4">
  <Project
   title="Google Books Search"
   info="blah blah blh and blah fgdfgwergqe"
@@ -76,7 +76,7 @@ function Projects (){
       <div>icon3</div>
   </Project>
   </div>
-  <div className="col-4">
+  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center mb-4">
   <Project
   title="Fitness Tracker"
   info="blah blah blh and blah fgdfgwergqe"
@@ -87,7 +87,7 @@ function Projects (){
       <div>icon3</div>
   </Project>
   </div>
-  <div className="col-4">
+  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center mb-4">
   <Project
   title="Profiler Generator"
   info="blah blah blh and blah fgdfgwergqe"

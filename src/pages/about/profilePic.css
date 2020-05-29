@@ -20,8 +20,8 @@
   
   img {
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 440px;
+    height: 520px;
     background: white;
     border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
     color: white;
@@ -34,6 +34,10 @@
     border: solid black 15px
   }
   img {
-    border-radius: 180px;
-    border:  15px
+    border-radius: 50%;
+    border:  75px outset black
+}
+.bioText {
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
 }

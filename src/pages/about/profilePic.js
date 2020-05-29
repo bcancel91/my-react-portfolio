@@ -1,45 +1,66 @@
 import React from "react";
-import "./profilePic.css"
+import "./profilePic.css";
 
 
 import ProfileImage from "./brianPic.JPG";
-import { useDencrypt } from "use-dencrypt-effect";
 
-const values = ["WELCOME", "TO", "MY", "WORLD"];
+
+import Typical from 'react-typical';
+
+
+ 
+    
+     
+  
+
+
+
+
+
+
 
 const ProfileBanner = () => {
-  const { result, dencrypt } = useDencrypt();
-
-  React.useEffect(() => {
-    let i = 0;
-
-    const action = setInterval(() => {
-      dencrypt(values[i]);
-
-      i = i === values.length - 1 ? 0 : i + 1;
-    }, 2500);
-
-    return () => clearInterval(action);
-  }, []);
-
+    
   return  (
-    <div className="container-fluid">
+    
+    <div className="container-fluid" id="picSec">
     <div className="row">
-        <div className="col-4 d-flex align-items-center justify-content-center"> 
-        <h1 className="changeText">{result}</h1>
-        </div>
-        <div className="col-4 mb-4 d-flex justify-content-center">
-            <div className="">
-          <img src={ProfileImage} alt="profileImage"  className="mb-4" height="500px" width="370px"/>
-          </div>
+        
+        <div className="mb-4 d-flex justify-content-center col-xs-12col-sm-12 col-md-6 col-lg-4">
+            
+          <img src={ProfileImage} alt="profileImage"  className="mb-4"/>
+       
               </div>
 
-              <div className="col-4 d-flex align-items-center justify-content-center">
-              <h1 className="changeText" style={{marginLeft: "-10px"}}>{result}</h1>
+              <div className="d-flex align-items-center justify-content-center  col-sm-12 col-md-6 col-lg-8">
+              
+              <p className="bioText">
+                <Typical
+        steps={
+            [
+                'Hey you!',
+                 3000, 
+                 'Welcome to my tiny web home', 
+                2500,
+                "I'm a client side driven developer", 
+                2500,
+                'Orginally from Puerto Rico', 
+                2500,
+                'Currently coding away in ATL',
+                2500,
+                ]
+            }
+        loop={Infinity}
+        wrapper="b"
+      />
+                </p>
+                
+                
               </div>
               
         </div>
         </div>
+        
 
     
 )
