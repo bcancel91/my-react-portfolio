@@ -14,7 +14,7 @@ function AboutBox(){
                 <h3 className="left">  /brahˈeyein/ /can'zell/ </h3>  <br/>
 
                  <strong className="left" style={{fontStyle: "oblique", textDecoration: "underline"}}>noun</strong><br/>
-                  <p className="left">  1. An ATL based Full-Stack Developer who is front-End driven.<br/>
+                  <p className="left">  1. An ATL based Full-Stack Developer who is Front-End driven.<br/>
     2. A person or thing that develops the web.<br/>
                    "a web developer"</p><br/>
                     
